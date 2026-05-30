@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="navbar">
+        <h2 class="logo"></h2>
+
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+
+        <button id="modeToggle">🌙</button>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Full Stack Developer</h1>
+            <p>Building scalable web systems and modern UI experiences</p>
+            <a href="#projects" class="btn">View Work</a>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="about-left">
+                <h2>About Me</h2>
+                <p>
+                     I am a developer focused on building production-ready applications with modern frontend & backend systems.
+                </p>
+                <p>
+                    My mission is to grow into an elite engineer by mastering fundamentals deeply.
+                </p>
+
+                <a href="#" class="btn">Download CV</a>
+            </div>
+
+            <div class="about-right">
+            <div class="about-card">
+                <h3>Quick Info</h3>
+                <p>📍 Tanzania</p>
+                <p>💻 Frontend Journey</p>
+                <p>🚀 Building Future Kingdom</p>
+                <p>📚 Daily Learner</p>
+            </div>
+        </div>
+    </section>
+
+    <hr>
+
+    <section id="skills" class="skills">
+        <h2>Skills</h2>
+        <div class="skills-box">
+
+            <div class="html"></div>
+
+            <div class="css"></div>
+
+            <div class="js"></div>
+
+        </div>
+    </section>
+
+    <hr>
+
+    <section id="projects" class="projects">
+        <h2>Projects</h2>
+
+        <div class="filters">
+            <button onclick="filter('all')">All</button>
+            <button onclick="filter('web')">Web</button>
+            <button onclick="filter('app')">Apps</button>
+        </div>
+
+        <div class="grid">
+
+            <div class="card web">Ecommerce System</div>
+            <div class="card app">Banking App</div>
+            <div class="card web">Portfolio System</div>
+
+        </div>
+    </section>
+
+    <hr>
+
+    <section id="contact" class="contact">
+        <h2>Contact</h2>
+
+        <form>
+            <input type="text" placeholder="Name">
+            <input type="email" placeholder="Email">
+            <textarea placeholder="Message"></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <hr>
+
+    <footer>
+        <p>© 2026 </p>
+        <h2 class="logo"></h2>
+    </footer>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
