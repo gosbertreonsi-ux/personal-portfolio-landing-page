@@ -224,17 +224,17 @@ body.dark .hero{
 }
 
 .html{
-    background-image: url("/personal-portfolio-landing-page/html.png");
+    background-image: url("./html.png");
     animation: project 5s linear infinite;
 }
 
 .css{
-    background-image: url("/personal-portfolio-landing-page/css.png");
+    background-image: url("./css.png");
     animation: project 5s linear infinite;
 }
 
 .js{
-    background-image: url("/personal-portfolio-landing-page/js.png");
+    background-image: url("./js.png");
     animation: project 5s linear infinite;
 }
 
@@ -310,7 +310,7 @@ input,textarea{
 .logo{
     width: 140px;
     height:55px ;
-    background-image: url("/personal-portfolio-landing-page/leo.png");
+    background-image: url("./leo.png");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
