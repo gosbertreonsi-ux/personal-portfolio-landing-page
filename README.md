@@ -16,12 +16,12 @@ Light Mode:
 - **🎨 Modern Visuals**: Equipped with vibrant blue gradients, custom logos, elegant card container selections, and clean typography.
 
   - LIGHT MODE:
-    <img src="port1.png" />
-    <img src="port4.png" />
+    <img src="port1.jpg" />
+    <img src="port4.jpg" />
 
   - DARK MODE:
-     <img src="port2.png" />
-     <img src="port3.png" />
+     <img src="port2.jpg" />
+     <img src="port3.jpg" />
     
   
 ---
